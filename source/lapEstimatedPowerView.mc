@@ -1,3 +1,4 @@
+using Toybox.System as Sys;
 import Toybox.Activity;
 import Toybox.Lang;
 import Toybox.Time;
@@ -14,18 +15,21 @@ class lapEstimatedPowerView extends WatchUi.SimpleDataField {
         self.estimator = new powerEstimator();
     }
 
-    // The given info object contains all the current workout information. Calculate a value and return it in this method.
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+    	if(info.timerTime < 1000) {
+    		estimator.setStartElevation(info.altitude);
+    	}
     	estimator.setElev(info.altitude);
     	estimator.setDist(info.elapsedDistance);
     	estimator.setTimer(info.timerTime);
     	
-    	var time = estimator.estimate();
+    	var power = estimator.estimate();
     	
-        return time;
+        return power;
     }
     
     function onTimerLap() {
+    	//Sys.println("new Lap");
     	estimator.reset();
     }
 

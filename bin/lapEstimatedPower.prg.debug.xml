@@ -8,119 +8,155 @@
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="5" lineNum="16" pc="268435484" symbol="onStop"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="6" lineNum="20" pc="268435489" symbol="getInitialView"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="6" lineNum="21" pc="268435493" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="6" lineNum="5" pc="268436144" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="6" lineNum="5" pc="268436426" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="7" lineNum="26" pc="268435531" symbol="getApp"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerApp.mc" id="7" lineNum="27" pc="268435543" symbol="getApp"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="10" pc="268435560" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="11" pc="268435564" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="12" pc="268435582" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="14" pc="268435595" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="11" pc="268435560" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="12" pc="268435564" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="13" pc="268435582" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="9" lineNum="15" pc="268435595" symbol="initialize"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="18" pc="268435626" symbol="compute"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="19" pc="268435630" symbol="compute"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="20" pc="268435656" symbol="compute"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="21" pc="268435682" symbol="compute"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="23" pc="268435708" symbol="compute"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="25" pc="268435727" symbol="compute"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="28" pc="268435731" symbol="onTimerLap"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="29" pc="268435735" symbol="onTimerLap"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="6" pc="268436194" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="18" pc="268435754" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="19" pc="268435758" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="20" pc="268435771" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="21" pc="268435784" symbol="initialize"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="25" pc="268435798" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="26" pc="268435802" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="27" pc="268435815" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="30" pc="268435831" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="31" pc="268435855" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="32" pc="268435879" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="34" pc="268435909" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="35" pc="268435928" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="36" pc="268435947" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="38" pc="268435972" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="39" pc="268435997" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="40" pc="268436004" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="45" pc="268436026" symbol="estimate"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="48" pc="268436030" symbol="reset"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="49" pc="268436034" symbol="reset"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="50" pc="268436050" symbol="reset"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="51" pc="268436066" symbol="reset"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="16" lineNum="56" pc="268436083" symbol="rollingResistance"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="17" lineNum="58" pc="268436088" symbol="airResistance"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="60" pc="268436093" symbol="gravity"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="65" pc="268436098" symbol="setElev"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="66" pc="268436102" symbol="setElev"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="69" pc="268436113" symbol="setDist"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="70" pc="268436117" symbol="setDist"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="73" pc="268436128" symbol="setTimer"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="74" pc="268436132" symbol="setTimer"/>
-        <entry filename="Rez" id="28" lineNum="1" pc="268436163" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="20" pc="268435647" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="22" pc="268435676" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="23" pc="268435702" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="24" pc="268435728" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="26" pc="268435754" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="10" lineNum="28" pc="268435773" symbol="compute"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="31" pc="268435777" symbol="onTimerLap"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="33" pc="268435781" symbol="onTimerLap"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\lapEstimatedPowerView.mc" id="11" lineNum="7" pc="268436476" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="26" pc="268435800" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="27" pc="268435804" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="13" lineNum="28" pc="268435817" symbol="initialize"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="31" pc="268435831" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="32" pc="268435835" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="33" pc="268435848" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="36" pc="268435864" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="37" pc="268435883" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="38" pc="268435902" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="41" pc="268435927" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="42" pc="268435952" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="43" pc="268435959" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="45" pc="268435966" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="46" pc="268436009" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="48" pc="268436031" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="49" pc="268436042" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="51" pc="268436051" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="14" lineNum="54" pc="268436081" symbol="estimate"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="57" pc="268436088" symbol="reset"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="58" pc="268436092" symbol="reset"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="59" pc="268436108" symbol="reset"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="15" lineNum="60" pc="268436124" symbol="reset"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="16" lineNum="65" pc="268436141" symbol="gravitationalForce"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="16" lineNum="66" pc="268436145" symbol="gravitationalForce"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="16" lineNum="67" pc="268436179" symbol="gravitationalForce"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="16" lineNum="69" pc="268436210" symbol="gravitationalForce"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="17" lineNum="72" pc="268436214" symbol="rollingResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="17" lineNum="73" pc="268436218" symbol="rollingResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="17" lineNum="74" pc="268436252" symbol="rollingResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="17" lineNum="76" pc="268436292" symbol="rollingResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="79" pc="268436296" symbol="airResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="80" pc="268436300" symbol="airResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="81" pc="268436319" symbol="airResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="83" pc="268436361" symbol="airResistance"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="89" pc="268436365" symbol="setStartElevation"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="90" pc="268436369" symbol="setStartElevation"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="93" pc="268436380" symbol="setElev"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="94" pc="268436384" symbol="setElev"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="97" pc="268436395" symbol="setDist"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="98" pc="268436399" symbol="setDist"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="101" pc="268436410" symbol="setTimer"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="102" pc="268436414" symbol="setTimer"/>
+        <entry filename="Rez" id="29" lineNum="1" pc="268436445" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="30" symbol="&lt;globals/lapEstimatedPowerView/&lt;&gt;estimator&gt;"/>
+        <entry id="35" method="true" symbol="setStartElevation"/>
+        <entry field="true" id="39" symbol="&lt;globals/lapEstimatedPowerView/&lt;&gt;estimator&gt;"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="22" method="true" symbol="estimate"/>
-        <entry field="true" id="19" symbol="&lt;globals/powerEstimator/&lt;&gt;currentElev&gt;"/>
+        <entry id="30" method="true" symbol="estimate"/>
+        <entry field="true" id="27" symbol="&lt;globals/powerEstimator/&lt;&gt;currentElev&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="23" method="true" symbol="reset"/>
+        <entry id="31" method="true" symbol="reset"/>
         <entry field="true" id="15" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="27" method="true" symbol="setElev"/>
+        <entry id="36" method="true" symbol="setElev"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="20" symbol="&lt;globals/powerEstimator/&lt;&gt;WEIGHT_BIKE&gt;"/>
         <entry id="11" object="true" symbol="powerEstimator"/>
-        <entry field="true" id="18" symbol="&lt;globals/powerEstimator/&lt;&gt;startTimer&gt;"/>
+        <entry field="true" id="26" symbol="&lt;globals/powerEstimator/&lt;&gt;startTimer&gt;"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="13" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="9" object="true" symbol="lapEstimatedPowerApp"/>
-        <entry id="26" method="true" symbol="gravity"/>
+        <entry field="true" id="18" symbol="&lt;globals/powerEstimator/&lt;&gt;DRIVETRAIN_LOSS&gt;"/>
         <entry id="8389137" method="true" symbol="compute"/>
-        <entry field="true" id="17" symbol="&lt;globals/powerEstimator/&lt;&gt;startDistance&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/powerEstimator/&lt;&gt;startDistance&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="28" method="true" symbol="setDist"/>
+        <entry field="true" id="19" symbol="&lt;globals/powerEstimator/&lt;&gt;WEIGHT_RIDER&gt;"/>
+        <entry id="37" method="true" symbol="setDist"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="21" symbol="&lt;globals/powerEstimator/&lt;&gt;currentTimer&gt;"/>
-        <entry id="25" method="true" symbol="airResistance"/>
+        <entry field="true" id="23" symbol="&lt;globals/powerEstimator/&lt;&gt;DRAG_COEFFICIENT&gt;"/>
+        <entry field="true" id="29" symbol="&lt;globals/powerEstimator/&lt;&gt;currentTimer&gt;"/>
+        <entry field="true" id="16" symbol="&lt;globals/powerEstimator/&lt;&gt;GRAVITATIONAL_CONST&gt;"/>
+        <entry id="34" method="true" symbol="airResistance"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="32" method="true" symbol="gravitationalForce"/>
         <entry field="true" id="14" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="16" symbol="&lt;globals/powerEstimator/&lt;&gt;startElevation&gt;"/>
+        <entry field="true" id="24" symbol="&lt;globals/powerEstimator/&lt;&gt;startElevation&gt;"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="29" method="true" symbol="setTimer"/>
+        <entry field="true" id="21" symbol="&lt;globals/powerEstimator/&lt;&gt;CRR&gt;"/>
+        <entry id="38" method="true" symbol="setTimer"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="22" symbol="&lt;globals/powerEstimator/&lt;&gt;FRONTAL_AREA&gt;"/>
         <entry id="10" object="true" symbol="lapEstimatedPowerView"/>
+        <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389751" method="true" symbol="onTimerLap"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="20" symbol="&lt;globals/powerEstimator/&lt;&gt;currentDist&gt;"/>
+        <entry field="true" id="28" symbol="&lt;globals/powerEstimator/&lt;&gt;currentDist&gt;"/>
         <entry id="12" module="true" symbol="Layouts"/>
-        <entry id="24" method="true" symbol="rollingResistance"/>
+        <entry id="33" method="true" symbol="rollingResistance"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="17" symbol="&lt;globals/powerEstimator/&lt;&gt;AIR_DENSITY&gt;"/>
         <entry id="8388635" module="true" symbol="Application"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435484" name="state" stackId="1" startPc="268435479"/>
         <entry arg="true" endPc="268435489" name="state" stackId="1" startPc="268435484"/>
-        <entry endPc="268435730" name="time" stackId="2" startPc="268435630"/>
-        <entry arg="true" endPc="268435731" name="info" stackId="1" startPc="268435626"/>
-        <entry endPc="268436023" name="lapSpeed" stackId="5" startPc="268435997"/>
-        <entry endPc="268436023" name="lapSlope" stackId="4" startPc="268435997"/>
-        <entry endPc="268436029" name="lapElev" stackId="1" startPc="268435802"/>
-        <entry endPc="268436029" name="lapDist" stackId="2" startPc="268435802"/>
-        <entry endPc="268436029" name="lapTimer" stackId="3" startPc="268435802"/>
-        <entry arg="true" endPc="268436113" name="elev" stackId="1" startPc="268436098"/>
-        <entry arg="true" endPc="268436128" name="dist" stackId="1" startPc="268436113"/>
-        <entry arg="true" endPc="268436143" name="time" stackId="1" startPc="268436128"/>
+        <entry endPc="268435776" name="power" stackId="2" startPc="268435630"/>
+        <entry arg="true" endPc="268435777" name="info" stackId="1" startPc="268435626"/>
+        <entry endPc="268436078" name="power" stackId="7" startPc="268435952"/>
+        <entry endPc="268436078" name="resistance" stackId="6" startPc="268435952"/>
+        <entry endPc="268436078" name="lapSpeed" stackId="5" startPc="268435952"/>
+        <entry endPc="268436078" name="lapSlope" stackId="4" startPc="268435952"/>
+        <entry endPc="268436087" name="lapElev" stackId="1" startPc="268435835"/>
+        <entry endPc="268436087" name="lapDist" stackId="2" startPc="268435835"/>
+        <entry endPc="268436087" name="lapTimer" stackId="3" startPc="268435835"/>
+        <entry endPc="268436213" name="gradientFactor" stackId="2" startPc="268436145"/>
+        <entry endPc="268436213" name="force" stackId="3" startPc="268436145"/>
+        <entry arg="true" endPc="268436214" name="slope" stackId="1" startPc="268436141"/>
+        <entry endPc="268436295" name="gradientFactor" stackId="2" startPc="268436218"/>
+        <entry endPc="268436295" name="force" stackId="3" startPc="268436218"/>
+        <entry arg="true" endPc="268436296" name="slope" stackId="1" startPc="268436214"/>
+        <entry endPc="268436364" name="cda" stackId="2" startPc="268436300"/>
+        <entry endPc="268436364" name="force" stackId="3" startPc="268436300"/>
+        <entry arg="true" endPc="268436365" name="velocity" stackId="1" startPc="268436296"/>
+        <entry arg="true" endPc="268436380" name="elev" stackId="1" startPc="268436365"/>
+        <entry arg="true" endPc="268436395" name="elev" stackId="1" startPc="268436380"/>
+        <entry arg="true" endPc="268436410" name="dist" stackId="1" startPc="268436395"/>
+        <entry arg="true" endPc="268436425" name="time" stackId="1" startPc="268436410"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -137,7 +173,7 @@
         <dataEntry label="globals/Rez/JsonData" offset="448" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="479" parentId="Rez" symbolId="Strings" type="module"/>
         <dataEntry label="globals/powerEstimator" offset="518" parentId="globals" symbolId="powerEstimator" type="class"/>
-        <dataEntry label="globals/lapEstimatedPowerView" offset="677" parentId="globals" symbolId="lapEstimatedPowerView" type="class"/>
+        <dataEntry label="globals/lapEstimatedPowerView" offset="749" parentId="globals" symbolId="lapEstimatedPowerView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="lapEstimatedPowerApp">
@@ -176,13 +212,20 @@
         <functionEntry accessMode="public" name="reset" parent="powerEstimator">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="gravitationalForce" parent="powerEstimator">
+            <param id="slope"/>
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="rollingResistance" parent="powerEstimator">
+            <param id="slope"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="airResistance" parent="powerEstimator">
+            <param id="velocity"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="gravity" parent="powerEstimator">
+        <functionEntry accessMode="public" name="setStartElevation" parent="powerEstimator">
+            <param id="elev"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="setElev" parent="powerEstimator">

@@ -1,66 +1,94 @@
-//TODO: add power estimation algorithm
 //TODO: add CIQ settings
 
 using Toybox.System as Sys;
-
-import Toybox.Activity;
+import Toybox.Math;
 
 class powerEstimator {
 
-	private var startElevation; // metres
-	private var startDistance; // metres
-	private var startTimer; // milliseconds
+	private const GRAVITATIONAL_CONST = 9.8067;
+	private const AIR_DENSITY =  1.22601;
+	private const DRIVETRAIN_LOSS = .02;
 	
-	private var currentElev; // metres
-	private var currentDist; // metres
-	private var currentTimer; // milliseconds
+	private const WEIGHT_RIDER = 62;
+	private const WEIGHT_BIKE = 9;
+	private const CRR = .004;
+	private const FRONTAL_AREA = .4;
+	private const DRAG_COEFFICIENT = .9;
+	
+	private var startElevation; //m
+	private var startDistance; //m
+	private var startTimer; //ms
+	
+	private var currentElev; //m
+	private var currentDist; //m
+	private var currentTimer; //ms
 	
 	public function initialize() {
-		self.startElevation = 0.0;
 		self.startDistance = 0.0;
 		self.startTimer = 0.0;
-		
 	}
 	
 	function estimate() {
-		if(self.currentDist == null) {
+		if(self.currentDist == null) { //avoiding application crash before activity start
 			self.currentDist = 0;
 		}
 		
-		Sys.println(self.currentElev);
-		Sys.println(self.currentDist);
-		Sys.println(self.currentTimer + "\n");
+		var lapElev = self.currentElev - self.startElevation; //m
+		var lapDist = self.currentDist - self.startDistance; //m
+		var lapTimer = (self.currentTimer - self.startTimer) / 1000; //s
 		
-		var lapElev = self.currentElev - self.startElevation; // metres
-		var lapDist = self.currentDist - self.startDistance; // metres
-		var lapTimer = (self.currentTimer - self.startTimer) / 1000; // seconds
-		
+		//lapDist = 10 * lapTimer; //only for simulating purposes, setting a constant velocity of 36 km/h
 		if(lapDist != 0 and lapTimer != 0) {
-			var lapSlope = lapElev / lapDist; // percent as decimal
-			var lapSpeed = (lapDist * 1000) / (lapTimer * 3600); // km/h
+			var lapSlope = lapElev / lapDist; //% as decimal
+			var lapSpeed = lapDist/lapTimer; //m/s
 			
-			//TODO: only estimate power here
+			var resistance = gravitationalForce(lapSlope) + rollingResistance(lapSlope) + airResistance(lapSpeed);
+			var power = (resistance * lapSpeed) * (1 + DRIVETRAIN_LOSS);
+			
+			if(power < 0) { //negative power means "braking", but showing this would only awake confusion
+				return 0;
+			}
+			return Math.round(power).toLong(); //converting to non-decimal value just cuts off at the decimal point, thus rounding first
 		}
 		
-		return lapTimer;
+		return "--";
 	}
 	
 	function reset() {
-		self.startElevation = currentElev;
-		self.startDistance = currentDist;
-		self.startTimer = currentTimer;
+		self.startElevation = self.currentElev;
+		self.startDistance = self.currentDist;
+		self.startTimer = self.currentTimer;
 	}
 	
 	//-----------------------------------------------------------------------------------------------
 	
-	function rollingResistance() {}
+	function gravitationalForce(slope) {
+		var gradientFactor = Math.sin(Math.atan(slope));
+		var force = GRAVITATIONAL_CONST * gradientFactor * (WEIGHT_RIDER + WEIGHT_BIKE);
+		
+		return force;
+	}
 	
-	function airResistance() {}
+	function rollingResistance(slope) {
+		var gradientFactor = Math.cos(Math.atan(slope));
+		var force = GRAVITATIONAL_CONST * gradientFactor * (WEIGHT_RIDER + WEIGHT_BIKE) * CRR;
+		
+		return force;
+	}
 	
-	function gravity() {}
+	function airResistance(velocity) {
+		var cda = FRONTAL_AREA * DRAG_COEFFICIENT;
+		var force = .5 * cda * AIR_DENSITY * Math.pow(velocity, 2);
+		
+		return force;
+	}
+	
 	
 	//-----------------------------------------------------------------------------------------------
 	
+	public function setStartElevation(elev) {
+		self.startElevation = elev;
+	}
 	
 	public function setElev(elev) {
 		self.currentElev = elev;
