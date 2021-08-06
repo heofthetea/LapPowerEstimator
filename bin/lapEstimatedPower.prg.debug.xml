@@ -60,14 +60,14 @@
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="80" pc="268436300" symbol="airResistance"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="81" pc="268436319" symbol="airResistance"/>
         <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="18" lineNum="83" pc="268436361" symbol="airResistance"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="89" pc="268436365" symbol="setStartElevation"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="90" pc="268436369" symbol="setStartElevation"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="93" pc="268436380" symbol="setElev"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="94" pc="268436384" symbol="setElev"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="97" pc="268436395" symbol="setDist"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="98" pc="268436399" symbol="setDist"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="101" pc="268436410" symbol="setTimer"/>
-        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="102" pc="268436414" symbol="setTimer"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="88" pc="268436365" symbol="setStartElevation"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="19" lineNum="89" pc="268436369" symbol="setStartElevation"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="92" pc="268436380" symbol="setElev"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="20" lineNum="93" pc="268436384" symbol="setElev"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="96" pc="268436395" symbol="setDist"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="21" lineNum="97" pc="268436399" symbol="setDist"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="100" pc="268436410" symbol="setTimer"/>
+        <entry filename="C:\\Users\\CcDr574\\GitHub\\LapPowerEstimator\\source\\powerEstimator.mc" id="22" lineNum="101" pc="268436414" symbol="setTimer"/>
         <entry filename="Rez" id="29" lineNum="1" pc="268436445" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>

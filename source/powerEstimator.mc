@@ -45,7 +45,7 @@ class powerEstimator {
 			var resistance = gravitationalForce(lapSlope) + rollingResistance(lapSlope) + airResistance(lapSpeed);
 			var power = (resistance * lapSpeed) * (1 + DRIVETRAIN_LOSS);
 			
-			if(power < 0) { //negative power means "braking", but showing this would only awake confusion
+			if(power < 0) { //negative power means "braking", but showing this misses the intention of the data field
 				return 0;
 			}
 			return Math.round(power).toLong(); //converting to non-decimal value just cuts off at the decimal point, thus rounding first
@@ -60,7 +60,7 @@ class powerEstimator {
 		self.startTimer = self.currentTimer;
 	}
 	
-	//-----------------------------------------------------------------------------------------------
+	//--------------------------------------------------------------------------------------------------------------------------------------
 	
 	function gravitationalForce(slope) {
 		var gradientFactor = Math.sin(Math.atan(slope));
@@ -83,8 +83,7 @@ class powerEstimator {
 		return force;
 	}
 	
-	
-	//-----------------------------------------------------------------------------------------------
+	//--------------------------------------------------------------------------------------------------------------------------------------
 	
 	public function setStartElevation(elev) {
 		self.startElevation = elev;
