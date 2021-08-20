@@ -29,26 +29,31 @@ class powerEstimator {
 	}
 	
 	function estimate() {
-		if(self.currentDist == null) { //avoiding application crash before activity start
-			self.currentDist = 0;
-		}
-		
-		var lapElev = self.currentElev - self.startElevation; //m
-		var lapDist = self.currentDist - self.startDistance; //m
-		var lapTimer = (self.currentTimer - self.startTimer) / 1000; //s
-		
-		//lapDist = 10 * lapTimer; //only for simulating purposes, setting a constant velocity of 36 km/h
-		if(lapDist != 0 and lapTimer != 0) {
-			var lapSlope = lapElev / lapDist; //% as decimal
-			var lapSpeed = lapDist/lapTimer; //m/s
-			
-			var resistance = gravitationalForce(lapSlope) + rollingResistance(lapSlope) + airResistance(lapSpeed);
-			var power = (resistance * lapSpeed) * (1 + DRIVETRAIN_LOSS);
-			
-			if(power < 0) { //negative power means "braking", but showing this misses the intention of the data field
-				return 0;
+		try {
+			if(self.currentDist == null) { //avoiding application crash before activity start
+				self.currentDist = 0;
 			}
-			return Math.round(power).toLong(); //converting to non-decimal value just cuts off at the decimal point, thus rounding first
+		
+			var lapElev = self.currentElev - self.startElevation; //m
+			var lapDist = self.currentDist - self.startDistance; //m
+			var lapTimer = (self.currentTimer - self.startTimer) / 1000; //s
+		
+			//lapDist = 10 * lapTimer; //only for simulating purposes, setting a constant velocity of 36 km/h
+			if(lapDist != 0 and lapTimer != 0) {
+				var lapSlope = lapElev / lapDist; //% as decimal
+				var lapSpeed = lapDist/lapTimer; //m/s
+				
+				var resistance = gravitationalForce(lapSlope) + rollingResistance(lapSlope) + airResistance(lapSpeed);
+				var power = (resistance * lapSpeed) * (1 + DRIVETRAIN_LOSS);
+			
+				if(power < 0) { //negative power means "braking", but showing this misses the intention of the data field
+					return 0;
+				}
+				return Math.round(power).toLong(); //converting to non-decimal value just cuts off at the decimal point, thus rounding first
+			}
+			
+		} catch(e) {
+			Sys.println(e.printStackTrace());
 		}
 		
 		return "--";
